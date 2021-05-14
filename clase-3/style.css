@@ -1,0 +1,25 @@
+
+#flex-container {
+  width: 100%;
+  height: 500px;
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-columm {
+  min-width: 400px;
+  flex: 1;
+}
+
+#col1 {
+  background-color: black;
+}
+
+#col2 {
+  background-color: bisque;
+}
+
+#col3 {
+  background-color: coral;
+}

@@ -1,0 +1,34 @@
+body {
+    background-color: #dddcde;
+    border: 1px solid black;
+    color: #111011;
+    text-align: justify;
+  }
+  h1 {
+    font-size: 40px;
+    color: #2f1d70;
+    text-align: left;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  section {
+    margin: 8px;
+    text-align: justify;
+    align-content: center;
+  }
+  footer {
+    font-size: 15px;
+    color: #2c1717;
+    display: block;
+  }
+  img {
+    padding: 35px;
+    width: 260px;
+    height: 250px;
+  }
+  

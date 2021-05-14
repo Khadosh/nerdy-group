@@ -1,0 +1,60 @@
+.layout {
+    background-color: #f5f2f1;
+}
+.title1 {
+    font-family: 'Permanent Marker', cursive;
+    color: #2c927f;
+    text-align: center;
+    font-size: 48px;
+    margin: 15px;
+}
+
+.subTitle {
+    font-size: 32px;
+    color: #2c927f;
+    text-align: center;
+    margin: 15px;
+}
+
+.contactForm {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgb(250, 249, 249);
+  }
+
+  .navVan {
+    background-color: #2d2720;
+  }
+  
+  .socialMedia {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+  }
+  .socialMedia a {
+    font-size: 32px;
+  }
+
+  .icons {
+      color: black;
+  }
+
+  .icons:hover {
+    color: gray;
+}
+
+.caption-g {
+    color: whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.about {
+  font-size: 22px;
+  margin: 15px;  
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

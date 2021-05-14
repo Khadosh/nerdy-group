@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 100px;
+  background-color: gray;
+}
+
+main {
+  flex: 1;
+  background-color: white;
+  display: flex;
+}
+
+footer {
+  height: 100px;
+  background-color: gray;
+}
+
+
+
+/* ------------ */
+
+.ads {
+  width: 150px;
+  background-color: pink;
+}
+
+.content {
+  flex: 1;
+}
+

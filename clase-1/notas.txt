@@ -1,0 +1,54 @@
+
+
+Full Stack Development: MERN agregando PostgreSQL
+
+-> Capa de presentación / Interacción del Usuario / User Experience
+=> Desarrollo Frontend
+
+-> Lo que da funcionalidad a la capa de presentación
+=> Desarrollo Backend
+
+-> Almacenamiento de información
+=> Bases de Datos
+
+--------------------------------------------------------------------------------------------------------
+
+Desarrollo Frontend
+HTML: Hypertext Markup Language
+
+estrucutra de las etiquetas
+
+<nombre_de_la_etiqueta clave="valor">contenido</nombre_de_la_etiqueta>
+
+la estructura básica de un archivo html debe contener las etiquetas
+- html
+  -> head
+  -> body
+
+Etiquetas
+
+Encabezado o Títulos
+  -> h1 ~ h5
+
+Texto
+  -> p => genera salto línea
+  -> span => no genera salto de línea
+
+Listas
+  -> ol => Listas ordenadas, donde el orden de los elementos tiene un sentido concreto
+  -> ul => Listas desordenadas, donde da lo mismo el orden de los elementos
+
+Hipervínculo
+  -> a => Con el atributo href nos permite vincular nuestro documento con cualquier otro documento
+
+Salto de línea
+  -> br => Fuerza el salto de línea del contenido que viene a continuación (por ejemplo para forzar que span, img, o a generenen un salto)
+
+Línea horizontal
+  -> hr => horizontal rule, se utiliza para generar una línea que cruza toda la pantalla, generando un cambio de escena
+
+Homework
+Crear una historia que esté contada en varias páginas, cada una tiene que tener un título, un pequeño subtítulo, una imagen que haga referencia a
+aquello que se está contando en esa página en específico.
+
+Tiene que permitirnos navegar hacia atrás y hacia adelante, volver al inicio

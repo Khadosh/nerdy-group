@@ -1,0 +1,108 @@
+
+
+Javascript lenguaje de programación
+frontend interpretado por el navegador (chrome, el leoncito)
+
+podemos almacenar valores para reusarlos => variables
+var <nombre_variable> = <valor>
+var nombre = "Coty"
+
+var => deja de utilizarse
+
+let y const...
+
+let: Debe ser utilizada únicamente cuando el valor que tenemos va a mutar
+const: Debe ser utilizada en todos los otros casos
+
+tipos de datos
+number
+  integer
+  float y podemos decir cuántos decimales mostrar con .toFixed(<numero_de_decimales>)
+string
+null
+undefined
+boolean
+  true
+  false
+
+tipos de datos más complejos
+- array
+- objetos
+
+operadores para generar una condición
+>
+<
+>=
+<=
+==
+=== -> Queremos comparar el valor y el tipo de dato
+ej: 1 === '1'
+!=
+
+concatenar operaciones de comparación
+&& => Cuando todas las operacioens sean verdaderas, va a devolver verdadero
+|| => Cuando al menos una de todas las operacioens sea verdadero, va a devolver verdadero
+
+
+
+ESTRUCTURAS DE CONTROL
+
+if => Lo vamos a utilizar para tomar una decisión por a o por b
+
+if (condicion) {
+  hacer esto
+} else {
+  hacer esto otro
+}
+
+if (condicion) {
+  bloque 1
+} else if (otra condicion) {
+  bloque 2
+}
+
+
+estrucutras para loop o estructuras de repetición
+while
+for
+
+
+while => Mientras una condición se cumpla, el código dentro del bloque se va a ejecutar de inicio a fin
+
+x = 0
+while(x < 10) {
+  document.write(x)
+}
+
+
+El ciclo for se usa para un recorrido más incremental cuando tenemos que recorrer estrucutras de tipo array!
+for(let x = 0; x < 10; x++) {
+  document.write(x)
+}
+
+
+Array es una variable que puede contener de 0 a n valores
+x = 1
+x = [1, 2]
+
+x = [] => lenght = 0
+x = [1] => lenght = 1
+x = [1,2] => lenght = 2
+x = [1..n] => lenght = n
+
+Características principales de array es que tiene una longitud
+el valor se accede a través de la posición
+
+
+const x = [30, 25, 60, 50]
+x[0] => 30
+x[1] => 25
+
+operaciones que podemos hacer con array
+push: Agrega un nuevo valor al final del array
+pop: Toma el último elemento del array, lo muestra y luego lo elimina
+unshift: Agrega un nuevo valor al principio del array
+shift: elimina el valor en el índice 0 del array
+
+podemos tmb modificar directamente el valor de posición del array haciendo
+x[n] = <valor>

@@ -1,0 +1,22 @@
+
+
+Responsive design: Diseño que se adapta de manera adecuada a todos los dispositivos o tamaños de pantalla
+
+cuando al padre le ponemos la propiedad
+`display: flex`. Estamos diciendo que sus hijos se van a comportar de una manera específica y van a poder acceder
+ciertas proppiedades
+
+
+cuando el hijo pone la propiedad
+`flex: 1` está indicando una cuestión de proporoción respecto de sus hermanos
+
+
+unidades de medidas en css
+
+=> px => pixeles
+vh => viewport height
+vw => viewport width
+
+v => viewport
+h => height
+w => width

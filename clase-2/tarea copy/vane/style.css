@@ -1,0 +1,52 @@
+body {
+  background-color: #dddcdc;
+  font-family: "Shadows Into Light", cursive;
+  color: #3f3844;
+  text-align: justify;
+}
+h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: "Shadows Into Light";
+}
+h3,
+p,
+li {
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+}
+span {
+  font-weight: bold;
+}
+section {
+  margin: 10px;
+  text-align: justify;
+  align-content: center;
+}
+footer {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  color: #524f4f;
+  display: block;
+}
+.comienzo {
+  width: 47%;
+  display: inline-block;
+  padding: 10px 15px;
+}
+.cita,
+.fin {
+  align-content: center;
+  display: inline-block;
+}
+
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  width: 270px;
+  height: 380px;
+}

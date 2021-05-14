@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.porfolio {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+header {
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+}
+.menu0 {
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: "Poppins";
+    margin-left: 20px;
+}
+.menu0 h2 {
+    font-size: 16px;
+    margin: 5px 0;
+    padding: 0px;
+    width: fit-content;
+}
+.menu0 a {
+    width: fit-content;
+}
+.letral {
+    color: yellow;
+    font-size: 20pt; 
+}
+#texto {
+    color: rgb(250, 250, 250);
+    font-family: "Lato";
+    font-size: 20px;
+}
+#logo {
+    width: 100px; height: 100px;
+    float: left;
+}
+footer {
+    background-color:white;
+    height: 60px;
+    padding: 20px;
+    
+}
+.pies {
+    width: 45px; height: 40px;
+    float: left;
+    padding: 10px;
+}
+.porfolio1 {
+    display: flex; 
+    flex: 1;
+}
+.porfolio2 {
+    flex: 1;
+    background: #AF5B6B;  
+}
+aside {
+    color: white;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);        
+    text-align: center;
+    background: #AF5B6B;
+    width: 10vh;
+    font-family: "Lato";
+    text-align:center;
+    
+}
+.cuerpo {
+    flex: 1;
+    font-family: "Lato";
+    font-size: 40px;
+    min-width: 320px;
+}
+.cuerpo img {
+    width: 100%;
+}
+
+.home {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contenido {
+    flex: 1;
+    padding: 40px 0;
+    color: white;
+    text-align: left;
+    font-size: 20pt;
+    font-family: "Montserrat";
+}
+.puntos {
+    font-size: 15pt;
+    font-family: "Montserrat";
+    color: white;
+}
+#menu1 {
+    color: #AF5B6B;
+}
+#menu2 {
+    color: #13a8b3;
+}
+#menu3 {
+    color: #c46a15;
+}
+#menu4 {
+    color: #40692c;
+}
+.porfolioc {
+    flex: 1;
+    background: #40692c;  
+}
+.asideporfolioC {
+    background: #40692c;  
+
+}
+.asideb {background-color: #c46a15 ;}
+
+.porfoliob {
+    
+    background-color: #c46a15 ;
+    width: 100%;
+}
+.home2 {
+        
+    
+    display: flex;
+    flex-direction: column-reverse;
+   
+}
+.form1 { 
+    display: block;
+    background-color: rgb(20, 17, 17);
+    color: white; 
+    padding: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+   margin-top: 20px;
+    
+    
+}
+form{
+    padding: 60px;
+    max-width: 400px;
+    background-color: #E7E7E7;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+  }
+  
+  form input, form textarea{
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    border: none; 
+    color: #525c66; 
+    font-size: 1em;
+    resize: horizontal; 
+  }
+  
+  form button {
+      display: block;
+      background-color:#40692c;
+      padding: 10px 45px 10px 45px;
+      border: 0;
+      font-size: 1em; 
+      color: 	white;
+      font-family: "Roboto", sans-serif;
+  }
+  
+ .porfoliop, .asidep{
+    display: flex;
+    
+    background: #178d96;  
+ }
+
+ @media (min-width: 768px) {
+    .menu0 {
+      flex-direction: row-reverse;
+      text-indent: 10px;
+      margin-right: 20px;
+      align-items: center;
+    }
+  }

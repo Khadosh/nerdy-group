@@ -1,0 +1,27 @@
+Bootstrap.
+Librería / Framework
+
+Librería: Es un conjunto de funcionalidades pre hechas que nos resuelven problemáticas comunes.
+Framework es un conjunto de librerías qeu buscan soluciones a más grande escala
+
+grid system
+
+-> Container
+  * container => Aplicado en el contenido principal. Empuja el contenido desde los laterlaes dejando un espacio
+    estándar y estudiado.
+  * container-fluid => Aplicado principalmente en header y footer (igualmente vamos a usar componentes de bootstrap)
+
+-> Row
+  * es una fila, que utilizar el 100% del espacio disponible hacia los laterlaes y puede ser dividida en columnas
+    de hasta 12 lugares.
+
+-> Column
+  * Column es como lo central en el funcionamiento responsive de bootrsrap. Su sintaxis utiliza breakpoints
+    en la descripción de la clase: `col-{breakpoint}-{cantidad_de_espacios_ocupados}`
+      ej: col-sm-6
+
+  * Recordar que es mobile-first, lo que quiere decir que el valor aplica desde el breakpoint en adelante.
+  * Si no ponemos ningún breakpoint el valor aplica xa todos los breakpoints
+  * Si no ponemos ningún valor las columnas ocupan 12/nro de columnas
+
+yyyy con esto ya les volé la cabeza por un tiempo <3

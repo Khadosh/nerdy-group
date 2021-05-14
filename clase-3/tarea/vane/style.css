@@ -1,0 +1,105 @@
+body {
+  background-color: honeydew;
+  margin: 0vh;
+  padding: 0vw;
+}
+
+#layout {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+}
+
+header {
+  flex-wrap: wrap;
+  background-color: #C71585;
+  text-align: center;
+  justify-items: center;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  background-color: honeydew;
+}
+
+footer {
+  background-color: #C71585;
+  text-align: end;
+  padding-right: 15px;
+  color: aliceblue;
+}
+
+aside {
+  background-color: #FFC0CB;
+  justify-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: space-between;
+  text-align: justify;
+}
+#inicio {
+  align-content: space-around;
+}
+#ambas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.solas {
+  min-width: 300px;
+  max-width: 47%;
+}
+
+#fotos {
+  width: 25%;
+  min-width: 300px;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "Shadows Into Light";
+}
+
+h2 {
+  font-size: 36px;
+  font-family: "Shadows Into Light";
+}
+
+h3,
+p,
+li,
+nav {
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+}
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  width: 270px;
+  height: 380px;
+}
+span, h4 {
+  font-weight: bold;
+}
+.cita {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fotis{
+  display: flex;
+  min-width: 300px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

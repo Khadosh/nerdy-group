@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;   
+}
+#holygrial1 {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: rgb(40, 138, 121);
+    border:rgb(255, 253, 244) dashed 3px;
+    text-align: center;
+    color:rgb(226, 238, 64);
+    font-family:"Pangolin";
+    font-size: 20pt;
+    height: 100px;
+    padding-bottom: 40px;
+}
+footer {
+    height: 100px;
+    background-color: rgb(40, 138, 121);
+    border:rgb(255, 253, 244) dashed 3px;
+}
+#holygrial {
+    display: flex; 
+    min-height: 100vh;   
+}
+aside {
+    width: 200px;
+    background-color:rgb(226, 238, 64);
+    font-family:"Pangolin";
+    border: white solid 10px;
+    padding: 15px; 
+}
+section { 
+    flex: 1;
+    padding: 30px;
+    border: white solid 10px;
+    padding: 15px;
+    *background-image: url(./Imagenes/Fondo1.png); 
+    *background-repeat: no-repeat;
+    *background-size: cover; 
+}
+#fondo1 {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+.Texto {
+    text-align: center;
+    font-size: 18pt;
+    font-family: "Pangolin"; 
+}
+.button {
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(205, 231, 89); 
+}
+.buton1 {
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: rgb(40, 138, 121);
+}

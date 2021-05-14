@@ -1,0 +1,72 @@
+
+etiqueta head => metainformación
+-> definiendo el conjunto de caracteres que acepta la página
+-> decidiendo cómo va a interactuar con los navegadores
+-> indicándole cómo actuar con distintos dispositivos
+-> título
+-> iconito que llevaa a la par del título (favicon)
+-> todas las estrategias de SEO -> search engine optimization
+    -> cómo gugle y buscadores encuentran nuestra página
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Frontend
+  -> HTML => Estructura
+  -> CSS => Styling => Cascade stylesheets u hójas de estilo en cascada.
+  -> JavaScript no tiene absolutamente nada que ver con Java => ECMAScript
+
+------------------------------------------------------------------------------------------------------------------------------
+CSS: 
+
+cómo se estiliza en CSS:
+1. selecciona un element
+2. se abren llavecitas
+3. se ponene las propiedades específicas que queremos cambiar de ese elemento
+
+estructura
+Selector {
+  clave: valor;
+}
+
+3 formas de acceder a un selector
+  -> Apuntando directamente a una etiqueta.
+    => Esto va a estilizar a aboslutamente todas las etiquetas de ese estilo dentro del documento.
+
+  -> A través de un identificador único
+    => id en el elemento HTML
+
+  -> A través de un conjunto
+    => clases en los elementos HTML que forman parte de ese grupo
+
+
+=> Fuentes de los textos => font-family
+=> Colores de texto => color
+=> Colores de Fondo => background-color
+=> Tamaños de los textos => font-size
+=> Negrita => font-weight
+
+
+=> Tamaños de los elementos
+=> Posiciones de los elementos
+=> Cambiar estilos por defecto que ya traen muchos de los elementos
+
+=> Comportamiento de los elementos con sus compañeritos
+  display:
+
+=> Bordes
+  => tamaño, tipo, color, grosor, redondeado
+=> Espacios
+  => internos
+  => externos
+
+
+wiii entendimos
+Espacios = Box Model
+  => Espacio hacia afuera del elemento (margin)
+  => Espacios internos del elemento (padding)
+  => Espacio que ocupa ese elemento
+
+
+  Todos los H(1, 2, 3, 4, 5) y la etiqueta <p> van a ocupar todo el el ancho del navegadores
+    => obligan al elemento que le sigue a posicionarse una línea por debajo.
