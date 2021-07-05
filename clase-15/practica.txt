@@ -1,0 +1,22 @@
+
+
+
+Escribir un documento HTML que contenga un input que me permita escribir un nombre
+Un boton que diga "saludar" y al hacerle click salte una alerta diciendo "Hola <nombre>"
+
+
+document.querySelector('id o la clase o lo que sea')
+esto se puede asignar a una variable
+y despues podemos acceder a sus propiedades
+
+ej.
+
+nombre = document.querySelector("#nombre")
+nombre.value
+
+
+boton podemos usar la propiedad onClick="funcion()"
+
+ej.
+
+<button onClick="saludar()">Saludar</button>

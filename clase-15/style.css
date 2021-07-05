@@ -1,0 +1,7 @@
+#borrar.visible {
+  display: block;
+}
+
+#borrar.invisible {
+  display: none;
+}
