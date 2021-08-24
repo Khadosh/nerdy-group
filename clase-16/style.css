@@ -1,0 +1,12 @@
+
+.wrapper {
+  display: flex;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+li:hover {
+  cursor: pointer;
+}
