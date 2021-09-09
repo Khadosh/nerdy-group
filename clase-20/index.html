@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form id="formulario">
+        <input placeholder="agregar tarea" name="tarea" required />
+        <input placeholder="agregar descripcion" name="description" required />
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div id="listas">
+        <!-- Este es donde voy a manejar el bubbling -->
+        <div>
+          <h2>Lista de Pendientes</h2>
+          <ul id="pendientes"></ul>
+        </div>
+        <div>
+          <h2>Lista de Realizadas</h2>
+          <ul id="realizadas"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

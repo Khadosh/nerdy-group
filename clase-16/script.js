@@ -28,6 +28,7 @@ function renderTaskList() {
 }
 
 taskListDOM.addEventListener('click', function(evt) {
+  debugger;
   const li = evt.target;
   const value = li.dataset.target;
 

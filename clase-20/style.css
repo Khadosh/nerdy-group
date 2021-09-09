@@ -1,0 +1,13 @@
+
+.wrapper, #listas {
+  display: flex;
+}
+
+#listas {
+  justify-content: space-around;
+}
+
+.wrapper {
+  flex-direction: column;
+  width: 100%;
+}
