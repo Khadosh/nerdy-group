@@ -1,0 +1,22 @@
+1. Hacer un manejador de tareas de 3 estados
+  - pendiente
+  - en progreso
+  - completada
+
+2. La tarea tiene que hacerse creando una clase Tarea que tenga las siguientes propiedades
+  - id
+  - title
+  - description
+  - status
+  - priority [high, low]
+
+3. Cada tarea debe dibujarse como un card con el título arriba y la descripción abajo
+4. En función de la prioridad el card, debe tener un fondo rojo (suave) o blanco
+5. Deben usar bootstrap para TODO
+
+
+
+----------------------------
+próxima clase
+  - cómo guardar el estado en el navegador
+  - investiguen http://sortablejs.github.io/Sortable/
