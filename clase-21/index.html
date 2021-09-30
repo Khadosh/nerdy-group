@@ -6,25 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
   </head>
   <body>
     <div id="wrapper">
       <form id="form-tarea">
-        <input type="text" name="title" placeholder="Ingrese la tarea"/>
-        <input type="text" name="description" placeholder="Ingrese el detalle"/>
+        <input type="text" name="title" placeholder="Ingrese la tarea" />
+        <input
+          type="text"
+          name="description"
+          placeholder="Ingrese el detalle"
+        />
         <button type="submit">Dale masa</button>
       </form>
 
       <div id="manejador-listas">
-        <ul id="pendientes">
-          
-        </ul>
-        <ul id="realizadas">
+        <div>
+          <h2>Pendientes</h2>
+          <ul id="pendientes"></ul>
+        </div>
+        <div>
+          <h2>Realizadas</h2>
+          <ul id="realizadas"></ul>
+        </div>
       </div>
-        
-      </ul>
     </div>
     <script src="Tarea.js"></script>
+    <script src="ListaDeTareas.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

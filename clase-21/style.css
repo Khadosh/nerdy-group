@@ -6,7 +6,26 @@
   justify-content: space-around;
 }
 
+#manejador-listas > div {
+  flex: 1
+}
+
+#manejador-listas > div > h2 {
+  text-align: center;
+}
+
 #form-tarea {
   width: 100%;
   text-align: center;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+li:hover {
+  cursor: grab;
 }

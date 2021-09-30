@@ -1,16 +1,16 @@
 class Tarea {
-  constructor(title, description) {
-    this.id = listaDeTareas.length;
+  constructor({ id, title, description, estado }) {
+    this.id = id || 0;
     this.title = title;
     this.description = description;
-    this.estado = 'pendiente'
+    this.estado = estado || "pendiente";
   }
 
   completar() {
-    this.estado = 'realizada'
+    this.estado = "realizada";
   }
 
   volverAPendiente() {
-    this.estado = 'pendiente'
+    this.estado = "pendiente";
   }
 }
